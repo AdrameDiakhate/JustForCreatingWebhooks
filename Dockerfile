@@ -8,8 +8,8 @@ RUN go mod tidy
 
 COPY *.go ./
 
-RUN go build -o /testwebhooks
+RUN go build -o testwebhooks
 
 EXPOSE 5000
 
-CMD [ "/testwebhooks" ]
+CMD [ "./testwebhooks" ]
