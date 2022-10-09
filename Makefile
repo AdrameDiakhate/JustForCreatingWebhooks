@@ -1,6 +1,6 @@
 REPOSITORY = testwebhooks
 ORGANIZATION = adrame98
-TAG = v2
+TAG = v3
 USERNAME=adrame98
 
 Build:
