@@ -1,6 +1,6 @@
 REPOSITORY = testwebhooks
 ORGANIZATION = adrame98
-TAG = v1
+TAG = v2
 USERNAME=adrame98
 
 Build:
@@ -16,5 +16,5 @@ Test:
 Deploy:
 
 	echo "Deploying"
-	docker login -u="$(USERNAME)" -p=dckr_pat_PXvYpxPSsZbrvDVzDOOBBtME7EU
-	docker push ${ORGANIZATION}/${REPOSITORY}:${TAG}
+	docker login -u="$(USERNAME)" -p=dckr_pat_bcI_4laiXy0BulYd7Mn0vLR6e58
+	docker push "${ORGANIZATION}/${REPOSITORY}:${TAG}"
